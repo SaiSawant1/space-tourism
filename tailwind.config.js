@@ -32,9 +32,9 @@ module.exports = {
         'background-des-m': "url('/destination/background-destination-mobile.jpg')",
       },
       colors: {
-        'black': '#0B0D17',
-        'purple': "#D0D6F9",
-        'white': '#FFFFFF',
+        'p-black': '#0B0D17',
+        'p-purple': "#D0D6F9",
+        'p-white': '#FFFFFF',
       },
     },
   },

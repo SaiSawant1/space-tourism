@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 
 *{
@@ -9,4 +9,21 @@
   margin: 0;
   padding: 0;
   font-family: 'Bellefair', serif;
+  
+}
+.content__center{
+  @apply flex justify-center items-center;
+}
+h5{
+  font-family: 'Barlow Condensed', sans-serif;
+  @apply text-[#D0D6F9] text-[16px] font-thin tablet:text-[20px] desktop:text-[28px] tracking-wider;
+}
+h1{
+  @apply text-p-white text-[80px] tracking-widest tablet:text-[150px] desktop:text-[150px] ;
+}
+.barlow{
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.explore{
+  @apply text-p-black rounded-[50%] bg-p-white w-[150px] h-[150px] text-center font-thin;
 }

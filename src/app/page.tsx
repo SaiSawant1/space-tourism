@@ -1,8 +1,11 @@
-import Image from 'next/image'
+import { ContentHome, Explore } from '@/components'
+
 
 export default function Home() {
   return (
-    <main className="">
+    <main className='flex flex-col justify-between grow '>
+      <ContentHome/>
+      <Explore/>
     </main>
   )
 }
