@@ -35,3 +35,31 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.90);
 
 border: 1px solid rgba(3, 0, 0, 0.3);
 }
+
+.menu{
+  position: fixed;
+  animation: menu 1s;
+}
+.menu>ul{
+  animation: ul_appear 3s;
+}
+
+@keyframes ul_appear {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}
+
+@keyframes menu {
+  0%{
+    bottom: 100%;
+  }
+  100%{
+    bottom: 0%;
+    
+  }
+}
