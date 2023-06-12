@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="w-full h-screen  flex flex-col p-6  tablet:pl-6 tablet:pr-0 tablet:py-0 bg-no-repeat bg-cover bg-background-home-m tablet:bg-no-repeat tablet:bg-cover tablet:bg-background-home-t ">
+      <body className="w-full h-screen  flex flex-col p-6  tablet:pl-6 tablet:pr-0 tablet:py-0 bg-no-repeat bg-cover bg-background-home-m tablet:bg-no-repeat tablet:bg-cover tablet:bg-background-home-t">
         <Navbar/>
         {children}
       </body>

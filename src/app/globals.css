@@ -25,7 +25,7 @@ h1{
   font-family: 'Barlow Condensed', sans-serif;
 }
 .explore{
-  @apply text-p-black rounded-[50%] bg-p-white w-[150px] h-[150px] text-center font-thin;
+  @apply text-p-black rounded-[50%] bg-p-white w-[150px] h-[150px] tablet:h-60 tablet:text-4xl tablet:w-60 text-center font-thin;
 }
 .toggle_menu{
   
