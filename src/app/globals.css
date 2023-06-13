@@ -29,11 +29,9 @@ h1{
   @apply text-p-black rounded-[50%] bg-p-white w-[150px] h-[150px] tablet:h-60 tablet:text-4xl tablet:w-60 text-center z-10 font-thin;
 }
 .toggle_menu{
-  
 background: rgba(3, 0, 0, 0.90);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.90);
-
 border: 1px solid rgba(3, 0, 0, 0.3);
 }
 

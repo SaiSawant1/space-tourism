@@ -49,7 +49,7 @@ const Navbar = ({}) => {
         alt="logo"
         width={24}
         height={21}
-        className="object-contain tablet:hidden cursor-pointer z-20"
+        className="object-contain tablet:hidden cursor-pointer z-50"
       />
       {isMenuOpen && <ToggleMenu />}
     </nav>
