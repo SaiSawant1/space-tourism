@@ -14,32 +14,32 @@ const Navbar = ({}) => {
         height={40}
         className="object-contain cursor-pointer"
       />
-      <hr className="h-0.5 w-1/2 hidden desktop:block bg-white"/>
+      <hr className="h-0.5 w-1/2 hidden desktop:block bg-white" />
       <div className="tablet:flex hidden desktop:w-1/2 home_desktop-bg bg-black h-full w-2/3">
         <ul className="justify-between items-center   flex text-p-white h-full w-full px-11">
           <div className="relative">
-            <Link href="/">
-              <li className="barlow font-thin">HOME</li>
+            <Link href="/" className="nav_li">
+              <li className="barlow ">HOME</li>
             </Link>
-            <span className="absolute h-1 -bottom-10 bg-white w-full "></span>
+            <span className="nav_span "></span>
           </div>
-          <div>
-            <Link href="/destination">
-              <li className="barlow">DESTINATION</li>
-              <span></span>
+          <div className="relative">
+            <Link href="/destination" className="nav_li">
+              <li className="barlow ">DESTINATION</li>
             </Link>
+            <span className="nav_span"></span>
           </div>
-          <div>
-            <Link href="/crew">
-              <li className="barlow">CREW</li>
+          <div className="relative">
+            <Link href="/crew" className="nav_li">
+              <li className="barlow ">CREW</li>
             </Link>
-            <span></span>
+            <span className="nav_span"></span>
           </div>
-          <div>
-            <Link href="/technology">
-              <li className="barlow">TECHNOLOGY</li>
-              <span></span>
+          <div className="relative">
+            <Link href="/technology" className="nav_li">
+              <li className="barlow ">TECHNOLOGY</li>
             </Link>
+            <span className="nav_span"></span>
           </div>
         </ul>
       </div>
