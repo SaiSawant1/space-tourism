@@ -24,6 +24,21 @@ h1{
 .barlow{
   font-family: 'Barlow Condensed', sans-serif;
 }
+.layout_home-tablet{
+  @apply  tablet:pl-6 tablet:pr-0 tablet:py-0 tablet:bg-no-repeat tablet:bg-cover tablet:bg-background-home-t ;
+}
+.layout_home-desktop{
+  @apply desktop:bg-background-home-d desktop:py-10 desktop:px-14;
+}
+
+ /* layout_des-tablet */
+.layout_des-tablet{
+  @apply  tablet:pl-6 tablet:pr-0 tablet:py-0 tablet:bg-no-repeat tablet:bg-cover tablet:bg-background-des-t ;
+}
+.layout_des-desktop{
+  @apply desktop:bg-background-des-d desktop:py-10 desktop:px-14;
+}
+
 .explore{
   transform-style: preserve-3d;
   @apply text-p-black rounded-[50%] bg-p-white w-[150px] h-[150px] tablet:h-60 tablet:text-4xl tablet:w-60 text-center z-10 font-thin;
