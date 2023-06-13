@@ -4,7 +4,7 @@ import React from "react";
 
 const ContentHome = () => {
   return (
-    <div className="tablet:mx-auto w-full tablet:w-[450px] tablet:max-h-80  content_wrapper text-center flex flex-col content__center">
+    <div className="tablet:mx-auto w-full tablet:w-[450px] tablet:max-h-80 desktop:m-0 content_wrapper text-center flex flex-col content__center">
       <H5>SO, YOU WANT TO TRAVEL TO</H5>
       <H1>SPACE</H1>
       <p className="text-p-purple barlow font-[15px]">

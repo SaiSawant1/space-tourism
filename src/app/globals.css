@@ -25,7 +25,8 @@ h1{
   font-family: 'Barlow Condensed', sans-serif;
 }
 .explore{
-  @apply text-p-black rounded-[50%] bg-p-white w-[150px] h-[150px] tablet:h-60 tablet:text-4xl tablet:w-60 text-center font-thin;
+  transform-style: preserve-3d;
+  @apply text-p-black rounded-[50%] bg-p-white w-[150px] h-[150px] tablet:h-60 tablet:text-4xl tablet:w-60 text-center z-10 font-thin;
 }
 .toggle_menu{
   
@@ -42,6 +43,31 @@ border: 1px solid rgba(3, 0, 0, 0.3);
 }
 .menu>ul{
   animation: ul_appear 3s;
+}
+
+
+
+@media (min-width:1280px) {
+  .home_desktop-bg{
+    margin: -56px;
+    background: rgba(87, 86, 86, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+  }
+  .explore:hover::before{
+    content: '';
+    position: absolute;
+    top: -80px;
+    left: -80px;
+    right: -80px;
+    bottom: -80px;
+    border-radius: 50%;
+    background: rgba(244, 235, 235, 0.2);
+    z-index: -1;
+    transform: translateZ(-1px);
+  }
+
 }
 
 @keyframes ul_appear {
