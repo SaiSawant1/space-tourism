@@ -15,19 +15,24 @@ const DesPage = () => {
   };
 
   return (
-    <div className="w-full text-center tablet:text-left tablet:text-2xl tracking-widest">
-      <span className="text-slate-700  text-xl mx-2 font-bold">01</span>
-      <h2 className="text-p-white text-l barlow inline">
-        PICK YOUR DESTINATION
-      </h2>
-      <MoonImage title={currentInfo.title} />
-      <DesOptions handleChange={handleChange} title={currentInfo.title} />
-      <DesContent content={currentInfo.content} title={currentInfo.title} />
-      <hr className="w-full h-1 text-white my-8" />
-      <TravelInfo
-        AvgDistance={currentInfo.AvgDistance}
-        EstTravelTime={currentInfo.EstTravelTime}
-      />
+    <div className="w-full text-center tablet:text-left tablet:text-2xl tracking-widest desktop:flex desktop:px-20 desktop:gap-16">
+      <div className="desktop:flex-1">
+        <span className="text-slate-700  text-xl mx-2 font-bold">01</span>
+        <h2 className="text-p-white text-l barlow inline">
+          PICK YOUR DESTINATION
+        </h2>
+        <MoonImage title={currentInfo.title} />
+      </div>
+
+      <div className="desktop:flex-1 ">
+        <DesOptions handleChange={handleChange} title={currentInfo.title} />
+        <DesContent content={currentInfo.content} title={currentInfo.title} />
+        <hr className="w-full h-1 text-white my-8" />
+        <TravelInfo
+          AvgDistance={currentInfo.AvgDistance}
+          EstTravelTime={currentInfo.EstTravelTime}
+        />
+      </div>
     </div>
   );
 };
