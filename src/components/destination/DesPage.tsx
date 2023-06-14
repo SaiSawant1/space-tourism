@@ -21,7 +21,7 @@ const DesPage = () => {
             PICK YOUR DESTINATION
           </h2>
           <MoonImage title={currentInfo.title} />
-          <DesOptions handleChange={handleChange} />
+          <DesOptions handleChange={handleChange} title={currentInfo.title} />
           <DesContent content={currentInfo.content} title={currentInfo.title} />
           <hr className="w-full h-1 text-white my-8" />
           <TravelInfo AvgDistance={currentInfo.AvgDistance} EstTravelTime={currentInfo.EstTravelTime} />
