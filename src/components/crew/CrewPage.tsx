@@ -16,7 +16,7 @@ const CrewPage = () => {
       <CrewImage image={currentMember.image} />
       <hr className="w-full h-1 text-white" />
       <div className="flex flex-col content__center my-9">
-        <CrewOptions changeMember={changeMember} />
+        <CrewOptions changeMember={changeMember} designation={currentMember.designation} />
         <CrewContent crew={currentMember} />
       </div>
     </>
