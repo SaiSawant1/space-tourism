@@ -8,10 +8,10 @@ interface Crew {
 }
 const CrewContent = ({crew}:{crew :Crew}) => {
   return (
-    <div className="flex content__center flex-col">
-      <h2 className="text-gray-800 my-4 text-lg font-bold">{crew.designation}</h2>
-      <h1 className="text-p-white text-2xl">{crew.name}</h1>
-      <p className="text-p-purple barlow text-center my-4">
+    <div className="flex content__center flex-col tablet:px-36">
+      <h2 className="text-gray-400 my-4 text-lg font-bold tablet:text-3xl">{crew.designation}</h2>
+      <h1 className="text-p-white text-2xl tablet:text-5xl">{crew.name}</h1>
+      <p className="text-p-purple barlow text-center my-4 tablet:text-2xl">
         {crew.text}
       </p>
     </div>
