@@ -1,6 +1,7 @@
 import { Navbar } from "@/components";
 import TechContent from "@/components/tech/TechContent";
 import TechImage from "@/components/tech/TechImage";
+import TechPage from "@/components/tech/TechPage";
 
 
 export default function Home() {
@@ -18,10 +19,7 @@ export default function Home() {
             SPACE LAUNCH 101
           </h2>
         </div>
-        <div className="flex flex-col w-full h-full">
-          <TechImage />
-          <TechContent />
-        </div>
+        <TechPage/>
       </main>
     </div>
   );
