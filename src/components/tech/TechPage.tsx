@@ -9,7 +9,7 @@ const TechPage = () => {
         setCurrentInfo(TechInfo[index]);
     }
   return (
-    <div className="flex flex-col w-full h-full">
+    <div className="flex flex-col w-full h-full desktop:flex-row-reverse desktop:pl-12 desktop:justify-between">
       <TechImage  current={currentInfo} />
       <TechContent changeCurrentInfo={changeCurrentInfo} current={currentInfo} />
     </div>
