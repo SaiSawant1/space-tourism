@@ -38,13 +38,20 @@ h1{
 .layout_des-desktop{
   @apply desktop:bg-background-des-d desktop:py-10 desktop:px-14;
 }
+/* layout_Crew*/
 .layout_crew-tablet{
   @apply  tablet:pl-6 tablet:pr-0 tablet:py-0 tablet:bg-no-repeat tablet:bg-cover tablet:bg-background-crew-t ;
 }
 .layout_crew-desktop{
   @apply desktop:bg-background-crew-d desktop:py-10 desktop:px-14;
 }
-/* layout_Crew*/
+/* technology */
+.layout_tech-tablet{
+  @apply  tablet:pl-6 tablet:pr-0 tablet:py-0 tablet:bg-no-repeat tablet:bg-cover tablet:bg-background-tech-t ;
+}
+.layout_tech-desktop{
+  @apply desktop:bg-background-tech-d desktop:py-10 desktop:px-14;
+}
 
 .explore{
   transform-style: preserve-3d;
