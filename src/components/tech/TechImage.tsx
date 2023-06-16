@@ -14,7 +14,7 @@ const TechImage = ({
         alt="launch vehicle"
         width={375}
         height={170}
-        className="object-contain w-full"
+        className="object-contain w-full tablet:w-full tablet:h-[310px]"
       />
     </div>
   );

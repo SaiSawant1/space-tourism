@@ -1,12 +1,10 @@
 import { Navbar } from "@/components";
-import TechContent from "@/components/tech/TechContent";
-import TechImage from "@/components/tech/TechImage";
 import TechPage from "@/components/tech/TechPage";
 
 
 export default function Home() {
   return (
-    <div className="w-full h-full desktop:h-screen flex flex-col  bg-no-repeat bg-cover bg-background-tech-m layout_tech-tablet layout_tech-desktop ">
+    <div className="w-full h-full desktop:h-screen tablet:p-0 flex flex-col  bg-no-repeat bg-cover bg-background-tech-m layout_tech-tablet layout_tech-desktop ">
       <div className="p-6">
         <Navbar />
       </div>
