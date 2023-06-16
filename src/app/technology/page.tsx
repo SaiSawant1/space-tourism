@@ -1,7 +1,7 @@
 import { Navbar } from "@/components";
 import TechContent from "@/components/tech/TechContent";
 import TechImage from "@/components/tech/TechImage";
-import Image from "next/image";
+
 
 export default function Home() {
   return (

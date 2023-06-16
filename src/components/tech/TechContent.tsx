@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const TechContent = () => {
   return (
@@ -22,9 +22,9 @@ const TechContent = () => {
         <h1 className="text-yellow-500 text-3xl my-4">LAUNCH VEHICLE</h1>
         <p className="text-p-purple barlow text-center px-10">
           A launch vehicle or carrier rocket is a rocket-propelled vehicle used
-          to carry a payload from Earth's surface to space, usually to Earth
+          to carry a payload from Earth&apos;s surface to space, usually to Earth
           orbit or beyond. Our WEB-X carrier rocket is the most powerful in
-          operation. Standing 150 metres tall, it's quite an awe-inspiring sight
+          operation. Standing 150 metres tall, it&apos;s quite an awe-inspiring sight
           on the launch.
         </p>
       </div>
